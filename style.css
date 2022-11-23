@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(0, 36, 27, 1) 0%, rgba(9, 121, 85, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+input {
+    padding: 0.5rem;
+    border: 2px solid #004c8b;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px #004c8b;
+    background-color: #008ba3;
+}
+
+input::placeholder {
+    color: #eee;
+}
+
+input:focus {
+    background-color: #eee;
+    color: #004c8b;
+}
+
+.card {
+    width: 100%;
+    margin-top: 2rem;
+    background-image: linear-gradient(#004c8b 0%, #008ba3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 12px 12px 15px 1px #004c8b;
+    max-width: 800px;
+}
+
+.avatar {
+    border: 10px solid rgb(1, 157, 149);
+    margin: 1.5rem;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    color: #eee;
+    margin-left: 1rem;
+}
+
+.user-info h2 {
+    margin-top: .7rem;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.user-info ul strong {
+    font-size: .8rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.user-info ul a {
+    background-color: #008ba3;
+    border-radius: 5px;
+    padding: .25rem .25rem;
+    margin-right: .5rem;
+    color: #eee;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.user-info ul a:hover {
+    color: #fd4dd4;
+}
+
+.repo {
+    background-color: #004c8b;
+    border-radius: 5px;
+    padding: 0.2rem 0.2rem;
+    display: inline-block;
+    margin: .5rem;
+    color: #eee;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.repo:hover {
+    color: #fd4dd4;
+}
